@@ -1,11 +1,4 @@
----
-title: "AWS OpsWorks SSH Access"
-tags: aws opsworks ssh
----
-
 Connecting to OpsWorks instance with SSH can be can be problematic. Here is a script which generates an SSH config file containing an entry for each host in the OpsWorks stack.
-
-ENDOFSUMMARY
 
 There are two problems to be solved when connecting to OpsWorks instances:
 
@@ -47,4 +40,4 @@ After running the script, you can use a simple ssh command to connect:
 ssh dev.host1
 ~~~
 
-<%= render_code("generate_sshconfig.py", "python") %>
+#### [generate_sshconfig.py](https://github.com/idlerun/opsworks-ssh/blob/master/generate_sshconfig.py)
