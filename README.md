@@ -1,4 +1,5 @@
 ---
+page: http://www.idle.run/opsworks-ssh
 title: "AWS OpsWorks SSH Access"
 tags: aws opsworks ssh
 date: 2015-07-10
